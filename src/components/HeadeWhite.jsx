@@ -82,7 +82,7 @@ export function HeaderWhite() {
 
           </a>
           <a href="/Contact" className="text-base font-medium text-[#000000]  hover:text-gray-500">
-            Let's Connect
+            Let&apos;s Connect
           </a>
 
         </Popover.Group>
