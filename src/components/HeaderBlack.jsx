@@ -74,16 +74,15 @@ export function HeaderBlack() {
         <div className="hidden md:flex md:flex-1 md:items-center md:justify-between">
           <Popover.Group as="nav" className="flex space-x-10">
  
-            <a href="/Geeks" className="text-base font-medium text-white hover:text-gray-400">
-              For Individuals
-            </a>
-            <a href="/Why-geekspod" className="text-base font-medium text-white hover:text-gray-400">
-            For Companies
-
-            </a>
-            <a href="/Contact" className="text-base font-medium text-white hover:text-gray-400">
-              Let&apos;s Connect
-            </a>
+            <Link href="/Geeks">
+              <p className="text-base font-medium text-white hover:text-gray-400"> For Individuals </p>
+              </Link>
+            <Link href="/Why-geekspod">
+              <p className="text-base font-medium text-white hover:text-gray-400">  For Companies </p>
+              </Link>
+            <Link href="/Contact">
+              <p className="text-base font-medium text-white hover:text-gray-400">  Let&apos;s Connect </p>
+              </Link>
 
           </Popover.Group>
          
