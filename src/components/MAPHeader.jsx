@@ -86,19 +86,26 @@ export function MAPHeader() {
     <main className="lg:relative">
     <div className="mx-auto w-full max-w-screen-2xl text-center lg:py-48 lg:text-left">
       <div className="px-4 sm:px-8 lg:w-1/2 xl:pr-16">
-        <h1 style = {{fontSize:"36px",fontWeight:"800",fontFamily:"inter"}} className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl">
-          <span className="block xl:inline">WE HIRE THE PERFECT GEEKS </span>{' '}
-          <br></br>
-          <span className="block xl:inline"> FOR YOUR POD THROUGH OUR </span>{' '}
-          <br></br>
+        <h1 style = {{fontFamily:"inter"}} className="text-3xl font-bold tracking-tight text-gray-900 lg:text-4xl xl:text-4xl">
+          <span className="block xl:inline">WE HIRE THE PERFECT GEEKS FOR YOUR POD THROUGH OUR   </span>{' '}
+
           <span className="block text-[#3300FF] xl:inline">PYRAMID OF SUCCESS!</span>
         </h1>
-        <p className="mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-base md:mt-5 md:max-w-3xl">
+        <p className="mx-auto mt-3 max-w-md text-sm lg:text-base text-gray-500 sm:text-base md:mt-5 md:max-w-3xl">
         1. Our ice-breaking consultation helps us find out exactly what you need<br></br>
 2. Our team of geek-detectives hunt and align the perfect Geek for your needs!<br></br>
 3. We Schedule your real-time interview at your convenience<br></br>
 4. No risks, just innovation! Get a 2 week, risk free trial and hire at your ease!<br></br>
         </p>
+        <div className="relative h-64 w-full sm:h-72 md:h-96 md:w-full lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2">
+      <Image 
+        className="absolute  h-full "
+        src={MAP_Header}
+        alt=""
+      />
+    </div>
+
+
         <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md shadow">
             <a
@@ -116,17 +123,11 @@ export function MAPHeader() {
               Live demo
             </a>
           </div>
+          <br></br>
         </div>
       </div>
     </div>
-    <div className="relative h-64 w-full sm:h-72 md:h-96 md:w-full lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2">
-      <Image 
-        className="absolute  h-full "
-        src={MAP_Header}
-        alt=""
-      />
-      <br></br>
-    </div>
+
   </main>
   )
 }

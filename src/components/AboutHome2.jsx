@@ -7,9 +7,8 @@ import {
     ScaleIcon,
   } from '@heroicons/react/24/outline'
   
-  import Image from 'next/image'
-
   import AboutHome from '@/images/AboutHome2.svg'
+  import Image from 'next/image'
 
   const transferFeatures = [
     {
@@ -51,7 +50,66 @@ import {
   ]
 
 
-  export function AboutHome2() {
+  export function AboutHome2(){
+    return (
+      <div >
+      <main >
+
+        <div className="overflow-hidden bg-gray-50 py-16 lg:py-24" style={{ backgroundImage: `linear-gradient(180deg, #1A27C8 0%, #0D1465 100%)`}}>
+          <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+
+
+            <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
+            <div className="mt-6">
+
+
+            <dl className="mt-10 space-y-10">
+            <h3 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">Let’s Make A Pod!</h3>
+
+                {transferFeatures.map((item) => (
+                  <div key={item.id} className="relative ">
+                    <dt>
+                      <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-gray-900 text-white">
+                        <item.icon className="h-6 w-6" aria-hidden="true" />
+                      </div>
+                      <p className="ml-16 text-lg font-medium leading-6 text-white">{item.name}</p>
+                    </dt>
+                    <dd style= {{color:'#CDCDCD'}} className="mt-2 ml-16 text-base">{item.description}</dd>
+                  </div>
+                ))}
+              </dl>
+        
+             
+              <div className="mt-7">
+                  <Link
+                    href="/Make-a-pod"
+                    
+                  >
+                    <p className="inline-flex rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-900 shadow-sm">Accelerate</p>
+                </Link>
+                </div>
+              </div>
+
+              <div className="relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
+
+                <img
+                  className="relative mx-auto"
+                  width={656}
+                  src={AboutHome.src}
+                  alt=""
+                />
+              </div>
+            </div>
+
+          </div>
+        </div>
+        {/* More main page content here... */}
+      </main>
+    </div>
+    )
+  }
+
+  export function AboutHome3() {
     return (
       <div style={{ backgroundImage: `linear-gradient(180deg, #1A27C8 0%, #0D1465 100%)`}} className="overflow-hidden bg-gray-50 py-16 lg:py-24 abouthome2bg">
         <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -105,3 +163,5 @@ import {
 
     )
   }
+
+

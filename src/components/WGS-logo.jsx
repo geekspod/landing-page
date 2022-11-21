@@ -7,13 +7,14 @@ import logo6 from "@/images/logos/logo6.svg"
 import logo7 from "@/images/logos/logo7.svg"
 import logo8 from "@/images/logos/logo8.svg"
 import logo9 from "@/images/logos/logo9.svg"
+
 import Image from 'next/image'
 
 export function WGS_logo() {
     return (
       <div className="bg-white">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <p style = {{fontSize:"36px",fontWeight:"800",fontFamily:"inter"}} className="text-center text-lg font-bold text-[#000000]">
+          <p style = {{fontFamily:"inter"}} className="text-center text-xl  lg:text-3xl xl:text-3xl font-bold text-[#000000]">
           OUR GEEKS CAN BE FOUND AT
           </p>
           <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">

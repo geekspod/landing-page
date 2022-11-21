@@ -11,7 +11,7 @@ export default function Geeks(){
         </GeeksHeader>
         <GeeksCTA></GeeksCTA>
         <GeeksFooter></GeeksFooter>
-        <Footer></Footer>
+        <Footer color='bg-white'></Footer>
         </>
     )
 }

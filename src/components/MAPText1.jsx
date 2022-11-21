@@ -54,12 +54,12 @@ const posts = [
   
   export function MAPText1() {
     return (
-      <div className="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+      <div className="bg-white px-4 pb-20 sm:px-6 lg:px-8 lg:pt-0 lg:pb-28">
         <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
           <div>
-            <h2 className="text-3xl font-bold text-center	 tracking-tight text-gray-900 sm:text-4xl">The Perfect Geeks For Your Need</h2>
-            <p className="mt-3 text-center	 text-xl text-[#4F46E5] sm:mt-4">WITHIN 3-5 WORKING DAYS</p>
-            <p className="mt-3 text-center	 text-xl text-gray-500 sm:mt-4">
+            <h2 className="text-2xl lg:text-3xl font-bold text-center	 tracking-tight text-gray-900 sm:text-4xl">The Perfect Geeks For Your Need</h2>
+            <p className="mt-3 text-center	text-lg lg:text-xl text-[#4F46E5] sm:mt-4">WITHIN 3-5 WORKING DAYS</p>
+            <p className="mt-3 text-center	text-lg lg:text-xl  text-gray-500 sm:mt-4">
             We&apos;re bringing global teams of developers and geniuses to your doorstep.</p>
           </div>
           </div>

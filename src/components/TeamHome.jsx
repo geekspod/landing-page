@@ -81,8 +81,8 @@ export function TeamHome() {
     let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
     return (
-            <div className="relative overflow-hidden">
-              <main>
+            <div className="  sm:hidden md:hidden lg:block relative overflow-hidden">
+              <main >
                 <div className="bg-gray-900 pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
                   <div className="mx-auto max-w-7xl lg:px-8">
                     <div className="lg:grid lg:grid-cols-2 lg:gap-8">

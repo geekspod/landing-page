@@ -11,7 +11,7 @@ import LogoWhite from '@/images/logos/LogoWhite.png'
 const navigation = [
   { name: 'For Individuals', href: '/Why-geekspod' },
   { name: 'For Companies', href: '/Geeks' },
-  { name: "Let&apos;s Connect", href: '/Contact' },
+  { name: "Let's Connect", href: '/Contact' },
 ]
 
 
@@ -32,7 +32,7 @@ export function HeaderBlack(){
           
           <Link href="/" >
             <span className="sr-only">GeeksPod</span>
-            <Image width="70%" height="50%"
+            <Image width="65%" height="26%"
               className="h-8 w-auto sm:h-10"
               src={LogoWhite.src}
               alt=""
@@ -72,11 +72,15 @@ export function HeaderBlack(){
       <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
         <div className="flex items-center justify-between px-5 pt-4">
           <div>
-            <Image width="100%" height="100%"
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+          <Link href="/" >
+            <span className="sr-only">GeeksPod</span>
+            <Image width="70%" height="50%"
+              className="h-8 w-auto sm:h-10"
+              src={LogoWhite.src}
               alt=""
-            />
+              />
+      
+            </Link>
           </div>
           <div className="-mr-2">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600">

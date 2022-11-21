@@ -15,8 +15,8 @@ import logo2 from "@/images/logos/logo2.svg"
 import logo3 from "@/images/logos/logo3.svg"
 import logo4 from "@/images/logos/logo4.svg"
 import logo5 from "@/images/logos/logo5.svg"
-import logo6 from "@/images/logos/logo6.svg"
 import logo7 from "@/images/logos/logo7.svg"
+
 import Image from 'next/image'
 
 const solutions = [
@@ -55,43 +55,52 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export function LogosHome() {
+
+
+
+
+export function LogosHome(){
   return (
-    <div className="bg-white">
+    <div className="bg-white mt-16">
+    <div className="-mt-8 mx-auto max-w-8xl  px-14  ">
 
-
-          {/* Logo cloud */}
-          <div className="bg-white">
-            <div className="mx-auto max-w-7xl py-8 px-4 sm:px-6 lg:px-8">
-              <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <Image className="h-12" src={logo1}  />
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <Image src={logo2}  />
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                  <Image 
-                    className="h-12"
-                    src={logo3} 
-                  />
-                </div>
-                <div className="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-                  <Image 
-                    className="h-12"
-                    src={logo4} 
-                  />
-                </div>
-                <div className="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-                  <Image 
-                    className="h-12"
-                    src={logo5} 
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+      <div className=" grid grid-cols-2 gap-4 md:grid-cols-6 ">
+        <div className="col-span-1 flex justify-center bg-gray-50 py-4 px-8">
+          <Image 
+     
+            src={logo1}
+          />
         </div>
+        <div className="col-span-1 flex justify-center bg-gray-50 py-2 px-8">
+          <Image  src={logo2} />
+        </div>
+        <div className="col-span-1 flex justify-center bg-gray-50 py-2 px-8">
+          <Image src={logo3}  alt="Tuple" />
+        </div>
+        <div className="col-span-1 flex justify-center bg-gray-50 py-2 px-8">
+          <Image  src={logo4} />
+        </div>
+        <div className="col-span-1 flex justify-center bg-gray-50 py-2 px-8">
+          <Image 
+          
+            src={logo5}
+          />
+        </div>
+        <div className="col-span-1 flex justify-center bg-gray-50 py-2 px-8">
+          <Image 
+   
+            src={logo7}
+          />
+        </div>
+        <div className='mb-4'></div>
 
-  )
+
+      </div>
+    </div>
+  </div>
+)
+  
+
 }
+
+
