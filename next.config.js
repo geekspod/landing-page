@@ -4,12 +4,13 @@ const nextConfig = {
   experimental: {
     newNextLinkBehavior: true,
     scrollRestoration: true,
+  
+  },
     images: {
       allowFutureImage: true,
       unoptimized : true
 
     }
-  }
 }
 
 module.exports = nextConfig
