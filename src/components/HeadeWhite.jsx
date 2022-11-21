@@ -1,56 +1,145 @@
-
 import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { ChevronRightIcon } from '@heroicons/react/20/solid'
-import POD_Background from '@/images/POD-bg.jpg'
-import LogoBlue from '@/images/logos/LogoBlue.png'
-import LogoBlack from '@/images/logos/LogoBlack.png'
-import LogoWhite from '@/images/logos/LogoWhite.png'
+
 import Link from 'next/link'
 import Image from 'next/image'
+import LogoBlack from '@/images/logos/LogoBlack.png'
+import LogoWhite from '@/images/logos/LogoWhite.png'
+import { Popover, Transition } from '@headlessui/react'
+import {
+  ArrowPathIcon,
+  Bars3Icon,
+  ChartBarIcon,
+  CursorArrowRaysIcon,
+  DocumentChartBarIcon,
+  ShieldCheckIcon,
+  Squares2X2Icon,
+  XMarkIcon,
+} from '@heroicons/react/24/outline'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
-const navigation = [
-  { name: 'For Individuals', href: '/Why-geekspod' },
-  { name: 'For Companies', href: '/Geeks' },
-  { name: "Let's Connect", href: '/Contact' },
+const solutions = [
+  {
+    name: 'For Individuals',
+    href: '/Geeks',
+  },
+  {
+    name: 'For Companies',
+    href: 'Why-geekspod',
+  },
+  { name: 'Lets Connect', 
+  href: '/Contact'
+ },
+
+]
+const resources = [
+  {
+    name: 'Help Center',
+    description: 'Get all of your questions answered in our forums or contact support.',
+    href: '#',
+  },
+  { name: 'Guides', description: 'Learn how to maximize our platform to get the most out of it.', href: '#' },
+  { name: 'Events', description: 'See what meet-ups and other events we might be planning near you.', href: '#' },
+  { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#' },
 ]
 
-export function HeaderWhite(){
-    return(
-<div className="relative overflow-hidden">
-<Popover as="header" className="relative">
-  <div className="bg-white pt-6">
-    <nav
-      className="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6"
-      aria-label="Global"
-    >
-      <div className="flex flex-1 items-center">
-        <div className="flex w-full items-center justify-between md:w-auto">
-          <Link href="/" >
-            <span className="sr-only">GeeksPod</span>
-            <Image width="65%"  height="26%"
-              className="h-4 w-auto sm:h-4"
-              src={LogoBlack.src}
-              alt=""
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
+
+export function HeaderWhite() {
+  return (
+    <Popover className="relative z-50 bg-[#ffffff]">
+    <div className="relative mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
+      <div className='px-4 lg:px-14'>
+      <div className="flex w-full items-center justify-between md:w-auto">
+        
+        <Link href="/" >
+          <span className="sr-only">GeeksPod</span>
+          <Image width="65%" height="26%"
+            className="h-8 w-auto sm:h-10"
+            src={LogoBlack.src}
+            alt=""
             />
-            </Link>
-         
-  
-        </div>
-        <div className="hidden space-x-8 md:ml-10 md:flex sm:flex">
-          {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-base font-medium text-gray-900 ">
-              {item.name}
-            </a>
-          ))}
-        </div>
+    
+          </Link>
+      
+    </div>
       </div>
+      <div className="-my-2 -mr-2 md:hidden">
+        <Popover.Button className="inline-flex items-center justify-center rounded-md bg-[#ffffff] p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+          <span className="sr-only">Open menu</span>
+          <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+        </Popover.Button>
+      </div>
+      <div className="hidden md:flex md:flex-1 md:items-center md:justify-between">
+        <Popover.Group as="nav" className="flex space-x-10">
 
-    </nav>
-  </div>
+          <a href="/Geeks" className="text-base font-medium text-[#000000] hover:text-gray-500">
+            For Individuals
+          </a>
+          <a href="/Why-geekspod" className="text-base font-medium text-[#000000] hover:text-gray-500">
+          For Companies
 
- 
-</Popover>
-<br></br>
-</div>)}
+          </a>
+          <a href="/Contact" className="text-base font-medium text-[#000000]  hover:text-gray-500">
+            Let's Connect
+          </a>
+
+        </Popover.Group>
+       
+      </div>
+    </div>
+
+    <Transition
+      as={Fragment}
+      enter="duration-200 ease-out"
+      enterFrom="opacity-0 scale-95"
+      enterTo="opacity-100 scale-100"
+      leave="duration-100 ease-in"
+      leaveFrom="opacity-100 scale-100"
+      leaveTo="opacity-0 scale-95"
+    >
+      <Popover.Panel focus className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
+        <div className="divide-y-2 divide-gray-50 rounded-lg bg-[#ffffff] shadow-lg ring-1 ring-black ring-opacity-5">
+          <div className="px-5 pt-5 pb-6">
+            <div className="flex items-center justify-between">
+              <div>
+              <Link href="/" >
+          <span className="sr-only">GeeksPod</span>
+          <Image width="65%" height="26%"
+            className="h-8 w-auto sm:h-10"
+            src={LogoBlack.src}
+            alt=""
+            />
+    
+          </Link>
+              </div>
+              <div className="-mr-2">
+                <Popover.Button className="inline-flex items-center justify-center rounded-md bg-[#ffffff] p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <span className="sr-only">Close menu</span>
+                  <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                </Popover.Button>
+              </div>
+            </div>
+            <div className="mt-6">
+              <nav className="grid gap-6">
+                {solutions.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50"
+                  >
+                  
+                    <div className="ml-4 text-base font-medium text-[#000000]">{item.name}</div>
+                  </a>
+                ))}
+              </nav>
+            </div>
+          </div>
+      
+        </div>
+      </Popover.Panel>
+    </Transition>
+  </Popover>
+  )
+}
