@@ -20,11 +20,11 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 const solutions = [
   {
     name: 'For Individuals',
-    href: '/Geeks',
+    href: '/for-individuals',
   },
   {
     name: 'For Companies',
-    href: 'Why-geekspod',
+    href: 'for-companies',
   },
   { name: 'Lets Connect', 
   href: '/Contact'
@@ -73,10 +73,10 @@ export function HeaderWhite() {
       </div>
       <div className="hidden md:flex md:flex-1 md:items-center md:justify-between">
         <Popover.Group as="nav" className="flex space-x-10">
-          <Link href="/Geeks">
+          <Link href="/for-individuals">
               <p className="text-base font-medium text-[#000000]  hover:text-gray-500"> For Individuals </p>
               </Link>
-            <Link href="/Why-geekspod">
+            <Link href="/for-companies">
               <p className="text-base font-medium text-[#000000]  hover:text-gray-500">  For Companies </p>
               </Link>
             <Link href="/Contact">
