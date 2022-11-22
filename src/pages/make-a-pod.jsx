@@ -10,6 +10,7 @@ import { HeaderWhite } from '@/components/HeadeWhite'
 export default function MAP(){
     return (
         <>
+        <title>GeeksPod - Make a pod</title>
         <HeaderWhite></HeaderWhite>
         <MAPHeader></MAPHeader>
         <MAPText1></MAPText1>

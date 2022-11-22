@@ -6,6 +6,7 @@ import { GeeksFooter } from '@/components/GeeksFooter'
 export default function Geeks(){
     return (
         <>
+        <title>GeeksPod - For Individuals</title>
         <HeaderWhite></HeaderWhite>
         <GeeksHeader>
         </GeeksHeader>

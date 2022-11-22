@@ -11,6 +11,7 @@ import { HeaderBlack } from '@/components/HeaderBlack'
 export default function Home() {
   return (
     <>
+    <title>GeeksPod</title>
   <HeaderBlack></HeaderBlack>
 <HeaderHome></HeaderHome>
 <LogosHome></LogosHome>
