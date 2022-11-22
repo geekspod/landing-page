@@ -82,7 +82,7 @@ import {
              
               <div className="mt-7">
                   <Link
-                    href="/Make-a-pod"
+                    href="/make-a-pod"
                     
                   >
                     <p className="inline-flex rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-900 shadow-sm">Accelerate</p>
@@ -138,7 +138,7 @@ import {
               <br></br>
               <div className="mt-7">
                   <Link
-                    href="/Make-a-pod"
+                    href="/make-a-pod"
                     
                   >
                     <p className="inline-flex rounded-md border border-transparent bg-white px-4 py-2 text-base font-medium text-indigo-900 shadow-sm">Accelerate</p>

@@ -65,7 +65,7 @@ export function GeeksHeader() {
           <br></br>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-              <span className="block xl:inline">We&apos;re always onboarding brilliance!</span>{' '}
+              <span className="block xl:inline">WE&apos;RE ALWAYS ONBOARDING BRILLIANCE!</span>{' '}
             </h1>
             <p className="mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
             Struggling to find an organisation that values your skills? Explore your career prospects at GeeksPod with projects tailored to your expertise!

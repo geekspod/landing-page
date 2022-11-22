@@ -1,8 +1,8 @@
 const navigation = {
     main: [
 
-      { name: 'For Individuals', href: '/Why-geekspod' },
-      { name: 'For Companies', href: '/Geeks' },
+      { name: 'For Individuals', href: '/for-individuals' },
+      { name: 'For Companies', href: '/for-companies' },
       { name: "Let's Connect", href: '/Contact' },
     
     ],
