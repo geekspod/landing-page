@@ -7,7 +7,7 @@ import { WGSFooter } from '@/components/WGSFooter'
 export default function Why_Geekspod() {
   return (
     <>
-    <title>GeeksPod - For Companies</title>
+    <title>GeeksPod - Disrupt The Competition</title>
 
     <HeaderWhite></HeaderWhite>
     <WGSHeader></WGSHeader>
