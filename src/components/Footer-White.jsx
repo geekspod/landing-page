@@ -93,7 +93,7 @@ const navigation = {
               </a>
             ))}
           </div>
-          <p className="mt-8 text-center text-base text-gray-400">&copy; 2022 GeeksPod, Pvt Ltd. All rights reserved.</p>
+          <p className="mt-8 text-center text-base text-gray-400">&copy; 2022 GeeksPod for GAPP CO. All rights reserved.</p>
         </div>
       </footer>
     )
