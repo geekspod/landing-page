@@ -28,7 +28,7 @@ import {
       id: 3,
       name: 'Not sure about what you need?',
       description:
-        'Fill a form with your requirements and let us hunt the perfect team.',
+        'Book an appointment with one of our consultants, let’s figure it out together.',
       icon: BoltIcon,
     },
   ]
