@@ -42,7 +42,7 @@ export function AboutHome(){
                 </span>
               </div>
               <br></br>
-                <h2 className="text-2xl lg:text-3xl font-bold tracking-tight text-gray-900">What is Geekspod, you ask?</h2>
+                <h2 className="text-2xl lg:text-3xl font-bold tracking-tight text-gray-900">What is GeeksPod, you ask?</h2>
                 <p className="mt-4 text-lg text-gray-500">
                 We put together remote teams of engineers, consultants for your projects. Whether you&#39;re a start-up or a full-fledged corporation, we’ve got the right people to get you started. 
                 </p>
