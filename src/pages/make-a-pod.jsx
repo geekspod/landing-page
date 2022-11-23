@@ -7,10 +7,17 @@ import { MAPContact } from '@/components/MAPContact'
 import {MAPManagement } from '@/components/MAPManagements'
 import { MAPText1 } from '@/components/MAPText1'
 import { HeaderWhite } from '@/components/HeadeWhite'
+import favicon from "public/favicon.ico"
+import Head from 'next/head';
+
 export default function MAP(){
     return (
         <>
-        <title>GeeksPod - Make a pod</title>
+        
+<Head>
+<title>GeeksPod - Make a pod</title>
+<link rel="shortcut icon" href={favicon.src} />
+</Head>
         <HeaderWhite></HeaderWhite>
         <MAPHeader></MAPHeader>
         <MAPText1></MAPText1>

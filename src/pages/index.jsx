@@ -7,11 +7,17 @@ import { TeamHome } from '@/components/TeamHome'
 import { FooterHome } from '@/components/FooterHome'
 import { Footer } from '@/components/Footer'
 import { HeaderBlack } from '@/components/HeaderBlack'
+import favicon from "public/favicon.ico"
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <>
-    <title>GeeksPod - Build Your Dream Engineering Team</title>
+
+<Head>
+<title>GeeksPod - Build Your Dream Engineering Team</title>
+<link rel="shortcut icon" href={favicon.src} />
+</Head>
   <HeaderBlack></HeaderBlack>
 <HeaderHome></HeaderHome>
 <LogosHome></LogosHome>
