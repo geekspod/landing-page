@@ -59,7 +59,7 @@ const navigation = {
   }
   
   export function Footer(props) {
-    var hoverColor = props.color == 'bg-gray-900' ?  "text-gray-50" : "text-gray-900"  ;
+    var hoverColor = props.color == 'bg-[#000000]' ?  "text-gray-50" : "text-gray-900"  ;
     
     var hoverClass = "text-gray-400 hover:"+hoverColor
     return (

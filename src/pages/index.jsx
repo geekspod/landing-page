@@ -25,7 +25,7 @@ export default function Home() {
 <AboutHome2></AboutHome2>
 <TeamHome></TeamHome>
 <FooterHome></FooterHome>
-<Footer color='bg-gray-900'></Footer>
+<Footer color='bg-[#000000]'></Footer>
 </>
 
   )

@@ -15,7 +15,7 @@ export default function Home() {
 
     <HeaderWhite></HeaderWhite>
 <Contact></Contact>
-  <Footer color='bg-gray-900'></Footer>
+  <Footer color='bg-[#000000]'></Footer>
   </>
   
     )

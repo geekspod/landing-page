@@ -5,7 +5,7 @@ import Image from 'next/image'
 export function WGSHeader() {
   return (
     <div className="relative bg-gray-800" style={{ backgroundImage: `linear-gradient(180deg, #1A27C8 0%, #0D1465 100%)`}}>
-            <div className="h-56 bg-accent sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
+            <div className="h-56  sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2 bg-white">
                 <img
                     className=" w-full h-full object-cover"
                     src={WSGHeaderImg.src}

@@ -6,7 +6,7 @@ export function GeeksCTA() {
 
   return (
     <div className="relative bg-white">
-            <div className="h-56 bg-accent sm:h-22 md:absolute md:left-0 md:h-full md:w-1/2">
+            <div className="h-56 sm:h-22 md:absolute md:left-0 md:h-full md:w-1/2">
                 <img
                 width={762}
                     className=" w-full h-full object-cover"

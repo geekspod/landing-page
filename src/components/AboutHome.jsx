@@ -8,7 +8,7 @@ export function AboutHome(){
     <div className="bg-white">
       <main>
 
-        <div className="overflow-hidden bg-gray-50 py-12 lg:py-12">
+        <div className="overflow-hidden bg-white py-12 lg:py-12">
           <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
 
 

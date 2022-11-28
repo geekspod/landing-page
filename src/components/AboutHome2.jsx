@@ -7,7 +7,7 @@ import {
     ScaleIcon,
   } from '@heroicons/react/24/outline'
   
-  import AboutHome from '@/images/AboutHome2.svg'
+  import AboutHome from '@/images/AboutHome2.png'
   import Image from 'next/image'
 
   const transferFeatures = [
@@ -64,12 +64,12 @@ import {
 
 
             <dl className="mt-10 space-y-10">
-            <h3 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">Let’s Make A Pod!</h3>
+            <h3 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">Let&apos;s Make A Pod!</h3>
 
                 {transferFeatures.map((item) => (
                   <div key={item.id} className="relative ">
                     <dt>
-                      <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-gray-900 text-white">
+                      <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-[#000000] text-white">
                         <item.icon className="h-6 w-6" aria-hidden="true" />
                       </div>
                       <p className="ml-16 text-lg font-medium leading-6 text-white">{item.name}</p>
