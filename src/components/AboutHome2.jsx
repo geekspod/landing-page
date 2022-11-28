@@ -7,7 +7,7 @@ import {
     ScaleIcon,
   } from '@heroicons/react/24/outline'
   
-  import AboutHome from '@/images/AboutHome2.png'
+  import AboutHome from '@/images/aboutHome2.png'
   import Image from 'next/image'
 
   const transferFeatures = [
