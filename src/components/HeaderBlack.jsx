@@ -48,7 +48,7 @@ function classNames(...classes) {
 
 export function HeaderBlack() {
   return (
-    <Popover className="relative z-50 bg-[#000000]">
+    <Popover style={{opacity:"100%"}} className="relative z-50 bg-[#000000]">
       <div className="relative mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
         <div className='px-4 lg:px-14'>
         <div className="flex w-full items-center justify-between md:w-auto">
