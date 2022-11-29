@@ -2,17 +2,19 @@ import { LifebuoyIcon, NewspaperIcon, PhoneIcon } from '@heroicons/react/24/outl
 
 const supportLinks = [
   {
-    name: 'Need to discuss?',
-    href: '#',
+    name: "Let's discuss",
+    href: '/Contact',
     description:
-      'Book a consultation Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
+      "Know what you need? Then let's build your team.",
+    buttonText:"Contact Us",
     icon: PhoneIcon,
   },
   {
-    name: 'Ready to get in action?',
-    href: '#',
+    name: 'Explore Opportunities',
+    href: 'https://www.linkedin.com/company/geekspod/jobs/',
     description:
-      'Fill out the form mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.',
+      "Visit our LinkedIn Jobs Page to explore opportunities",
+      buttonText:"Apply Now",
     icon: NewspaperIcon,
   },
 ]
@@ -49,7 +51,7 @@ export function GeeksFooter() {
               </div>
               <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
                 <a href={link.href} className="text-base font-medium text-[#3300FF] hover:text-indigo-600">
-                  Contact us<span aria-hidden="true"> &rarr;</span>
+                  {link.buttonText}<span aria-hidden="true"> &rarr;</span>
                 </a>
               </div>
             </div>
