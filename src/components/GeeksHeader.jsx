@@ -73,7 +73,7 @@ export function GeeksHeader() {
             <div className="mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow">
                 <a
-                  href="#"
+                  href="https://891jmikvkvr.typeform.com/to/gvTUBJnN"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-[#3300FF] px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
                 >
                   Apply Now
