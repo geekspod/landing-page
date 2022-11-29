@@ -25,35 +25,28 @@ export  function Contact() {
           <div className="mx-auto max-w-lg">
             <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Get in touch</h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-              Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus
-              arcu.
+            Within 24 hours, one of our Consultants will contact you to assist you whether you are a client or a potential candidate.
             </p>
             <dl className="mt-8 text-base text-gray-500">
-              <div>
-                <dt className="sr-only">Postal address</dt>
-                <dd>
-                  <p>742 Evergreen Terrace</p>
-                  <p>Springfield, OR 12345</p>
-                </dd>
-              </div>
+          
               <div className="mt-6">
                 <dt className="sr-only">Phone number</dt>
                 <dd className="flex">
                   <PhoneIcon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
-                  <span className="ml-3">+1 (555) 123-4567</span>
+                  <span className="ml-3">+1 (415) 662-0387</span>
                 </dd>
               </div>
               <div className="mt-3">
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
                   <EnvelopeIcon className="h-6 w-6 flex-shrink-0 text-gray-400" aria-hidden="true" />
-                  <span className="ml-3">support@example.com</span>
+                  <span className="ml-3">hello@geekspod.co</span>
                 </dd>
               </div>
             </dl>
             <p className="mt-6 text-base text-gray-500">
               Looking for careers?{' '}
-              <a href="#" className="font-medium text-gray-700 underline">
+              <a href="https://www.linkedin.com/company/geekspod/jobs/" className="font-medium text-gray-700 underline">
                 View all job openings
               </a>
               .
