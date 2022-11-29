@@ -62,10 +62,10 @@ function classNames(...classes) {
 export function LogosHome(){
   return (
     <div className="bg-white mt-16">
-    <div className="-mt-8 mx-auto max-w-8xl  px-14  ">
+    <div className="-mt-8 mx-auto max-w-8xl  px-18  ">
 
-      <div className=" grid grid-cols-2 gap-4 md:grid-cols-6 ">
-        <div className="col-span-1 flex justify-center bg-gray-50 py-4 px-8">
+      <div className=" grid grid-cols-2 gap-1 md:grid-cols-6 ">
+        <div className="col-span-1 flex justify-center bg-gray-50 py-12 px-8">
           <Image 
      
             src={logo1}
