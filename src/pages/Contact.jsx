@@ -8,6 +8,8 @@ export default function Home() {
     return (
       <>
       <Head>
+      <meta charset="UTF-8" />
+      <meta name="keywords" content="recruitment, IT consultant, consultant,careers,career opportunities,jobs,geeks,software developer,engineering,organization,jobs hiring,work from home,remote jobs,team building,part time jobs,employment,job search,software engineer,jobs hiring,career opportunities,jobs near me,jobs hiring near me,part time jobs near me,online jobs,job search," />
       <title>GeeksPod - Let&apos;s Connect</title>
       <link rel="shortcut icon" href={favicon.src} />
 
