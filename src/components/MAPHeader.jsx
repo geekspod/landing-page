@@ -101,7 +101,7 @@ export function MAPHeader() {
       <Image 
         className="absolute  h-full "
         src={MAP_Header}
-        alt=""
+        alt="geekspod-pyramid-of-success"
       />
     </div>
 

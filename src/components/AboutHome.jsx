@@ -63,7 +63,7 @@ export function AboutHome(){
                   className="relative mx-auto"
                   width={340}
                   src={Abouthome1.src}
-                  alt=""
+                  alt="geekspod-candidate-card"
                 />
               </div>
             </div>

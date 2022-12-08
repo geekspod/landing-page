@@ -13,7 +13,7 @@ export function MAPSplit(){
                 width={762}
                     className=" w-full h-full object-cover"
                     src={MAP_Split.src}
-                    alt=""
+                    alt="geekspod-geek-bond"
                 />
             </div>
 

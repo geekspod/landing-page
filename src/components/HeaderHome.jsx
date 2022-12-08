@@ -11,8 +11,8 @@ export function HeaderHome(){
     <div  className="bg-white">
       <main>
 
-        <div style={{backgroundSize:"100% 100%",
-      backgroundImage: `url(${POD_Background.src})`,}} className="overflow-hidden bg-gray-50  lg:py-24">
+        <div style={{
+      backgroundImage: `url(${POD_Background.src})`,   backgroundRepeat: "no-repeat" }} className="overflow-hidden bg-gray-50  lg:py-24">
           <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
 
 
@@ -38,7 +38,7 @@ export function HeaderHome(){
                   className="relative mx-auto"
                   width={974}
                   src={pod.src}
-                  alt=""
+                  alt="geekspod-ship-of-imagination"
                 />
               </div>
             </div>

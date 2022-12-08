@@ -9,7 +9,7 @@ export function WGSHeader() {
                 <img
                     className=" w-full h-full object-cover"
                     src={WSGHeaderImg.src}
-                    alt=""
+                    alt="geekspod-disrupt-the-competition"
                 />
             </div>
             <div className="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">

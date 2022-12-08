@@ -11,7 +11,7 @@ export function GeeksCTA() {
                 width={762}
                     className=" w-full h-full object-cover"
                     src={GEEKS_CTA.src}
-                    alt=""
+                    alt="geekspod-what-kind-of-geek"
                 />
             </div>
             <br></br>
