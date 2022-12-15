@@ -5,7 +5,7 @@ const supportLinks = [
     name: "Let's discuss",
     href: '/Contact',
     description:
-      "Know what you need? Then let's build your team.",
+      "Want to know how it works? Let’s set up a meeting! ",
     icon: PhoneIcon,
     buttonText: "Contact us"
   },
@@ -13,7 +13,7 @@ const supportLinks = [
     name: 'Take Action',
     href: 'https://891jmikvkvr.typeform.com/to/v5LusWlA',
     description:
-      "Know what you need? Then let's build your team.",
+      "Know what you need? Then let's start building your team. ",
     icon: NewspaperIcon,
     buttonText: "Make a Pod"
   },

@@ -14,21 +14,21 @@ import {
     {
       id: 1,
       name: 'What’s a Pod?',
-      description: 'An ideal team of people that align skills for your company’s needs.',
+      description: 'An ideal team of people that combine their skills for your company’s needs.',
       icon: GlobeAltIcon,
     },
     {
       id: 2,
       name: 'How to make one?',
       description:
-        'Fill a form with your requirements and let us hunt the perfect team.',
+        'Fill a form with your requirements and let us assemble the perfect team. ',
       icon: ScaleIcon,
     },
     {
       id: 3,
       name: 'Not sure about what you need?',
       description:
-        'Book an appointment with one of our consultants, let’s figure it out together.',
+        'Book an appointment with one of our consultants and let’s figure it out together. ',
       icon: BoltIcon,
     },
   ]

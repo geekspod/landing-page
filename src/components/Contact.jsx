@@ -25,8 +25,7 @@ export  function Contact() {
           <div className="mx-auto max-w-lg">
             <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Get in touch</h2>
             <p className="mt-3 text-lg leading-6 text-gray-500">
-            Within 24 hours, one of our Consultants will contact you to assist you whether you are a client or a potential candidate.
-            </p>
+            Whether you&appos;re a potential client or a Geek candidate, our consultant will contact within 24 hours of your request,  and assist you with a direction to move forward.             </p>
             <dl className="mt-8 text-base text-gray-500">
           
               <div className="mt-6">

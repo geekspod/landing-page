@@ -21,7 +21,7 @@ export function GeeksCTA() {
                 <div className="md:ml-auto md:w-1/2 md:pl-10">
                     <p className="mt-2 text-gray-900 text-2xl font-bold tracking-tight lg:text-3xl">WHAT KIND OF A GEEK ARE YOU?</p>
                     <p className="mt-3 text-lg text-gray-900">
-                    We are committed to fostering genuine relationships. Our recruiters invest in comprehending your needs in order to match candidates with the ideal project and client. Work with a recruiting team that partners with you to find the ideal next opportunity, as you are in high demand. Visit our LinkedIn Jobs page to view all available positions.
+                    You are in high demand and should work with a team that partners with you to locate your next great opportunity. We are committed to fostering genuine relationships. Our recruiters invest in comprehending your skill set and match you with the ideal project and client.  Visit our LinkedIn Jobs page to view all available positions. 
 </p>
                     <div className="mt-4">
             <div className="inline-flex rounded-md shadow">
