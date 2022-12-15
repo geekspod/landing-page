@@ -16,7 +16,7 @@ export function WGSHeader() {
                 <div className="md:ml-auto md:w-1/2 md:pl-10">
                     <p className="mt-2 text-white text-xl font-bold tracking-tight lg:text-3xl">Whether you are an established organization or an up & coming start up, you need a team that aligns with your goals </p>
                     <p className="mt-3 text-sm lg:text-lg text-gray-300">
-                    Luckily, we are here to help. Our vetting and scrutiny processes make sure that we hire the perfect geeks for you! So all that's left for you to do is consult us.                     <div className="mt-8">
+                    Luckily, we are here to help. Our vetting and scrutiny processes make sure that we hire the perfect geeks for you! So all that's left for you to do is consult us.        </p>             <div className="mt-8">
 
                     </div>
                 </div>
