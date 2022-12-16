@@ -12,7 +12,8 @@ export function HeaderHome(){
       <main>
 
         <div style={{
-      backgroundImage: `url(${POD_Background.src})`,   backgroundRepeat: "no-repeat" }} className="overflow-hidden bg-gray-50  lg:py-24">
+      backgroundImage: `url(${POD_Background.src})`,   backgroundRepeat: "no-repeat",   backgroundSize: "cover"
+    }} className="overflow-hidden bg-gray-50  lg:py-24">
           <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
 
 
