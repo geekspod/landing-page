@@ -1,0 +1,65 @@
+{
+    "@context": "http://schema.org",
+    "@type": [
+      "Organization",
+      "LocalBusiness"
+    ],
+  
+    "@id": "https://geekspod.co/",
+    "url": "https://geekspod.co/",
+    "logo": "https://geekspod.co/_next/static/media/LogoWhite.a2befb3b.png",
+    "name": "GeeksPod",
+    "brand": "Build your dream engineering team",
+    "description": "We're bringing the global village of developers and genuises to your doorstep!",
+  
+    "sameAs": [
+      "https://www.facebook.com/geekspod",
+      "https://www.instagram.com/geekspod",
+      "https://www.linkedin.com/company/geekspod/",
+      "https://twitter.com/geekspod"
+    ],
+  
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1 (415) 662 0387",
+      "areaServed": "United States",
+      "contactType": "Sales"
+    },
+    "alternateName": [
+      "GeeksPod",
+      "geekspod",
+      "engineers pod",
+      "recruitment agency",
+      "IT consultant"
+  
+    ],
+    "priceRange": "$50,000 - $500,000",
+    "paymentAccepted": [
+      "invoice",
+      "bank transfer",
+      "credit card",
+      "paypal"
+    ],
+  
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "16192 Coastal Hwy",
+      "addressLocality": "Lewes",
+      "addressRegion": "Delaware",
+      "postalCode": "19958",
+      "addressCountry": "United States"
+    },
+    "openingHours": "Mo-Fr 08:00-18:00",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://geekspod.co/_next/static/media/LogoWhite.a2befb3b.png",
+      "width": 995,
+      "height": 405
+    },
+  
+    "keywords": "IT consultant, consultant, careers, jobs, geeks, remote jobs, software engineer, jobs hiring, career opportunities, software developer, team building, organization, engineering, professionals, full stack engineer, engineering team, computer engineering, target hiring, consultants, corporation, hiring, business, candidates, business opportunities, IT recruitment, job sites",
+  
+    "author": {
+      "@id": "https://geekspod.co/"
+    }
+  }

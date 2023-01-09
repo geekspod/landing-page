@@ -5,6 +5,7 @@ import {useEffect} from 'react'
 import {useRouter} from 'next/router'
 import * as ga from '../google-analytics'
 import {NEXT_PUBLIC_MEASUREMENT_ID} from "@/utils/constants";
+import SEO_TAGS from "../schema.json"
 
 export default function App({Component, pageProps}) {
     const router = useRouter()
@@ -30,6 +31,10 @@ export default function App({Component, pageProps}) {
           gtag('config', '${NEXT_PUBLIC_MEASUREMENT_ID}');
         `}
             </Script>
+            <Script 
+                type="application/ld+json"  
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(SEO_TAGS) }}
+            />
             <Component {...pageProps} />
         </>
     )
