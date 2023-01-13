@@ -31,7 +31,8 @@ export default function App({Component, pageProps}) {
           gtag('config', '${NEXT_PUBLIC_MEASUREMENT_ID}');
         `}
             </Script>
-            <Script 
+            <Script
+                id="schema-org"
                 type="application/ld+json"  
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(SEO_TAGS) }}
             />
