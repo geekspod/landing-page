@@ -42,10 +42,10 @@ export function AboutHome(){
                 </span>
               </div>
               <br></br>
-                <h2 className="text-2xl lg:text-3xl font-bold tracking-tight text-gray-900">What is GeeksPod, you ask?</h2>
+                <h2 className="text-2xl lg:text-3xl font-bold tracking-tight text-gray-900">What is GeeksPod?</h2>
                 <p className="mt-4 text-lg text-gray-500">
-                We put together remote teams of engineers and consultants for your projects. Whether you&#39;re a start-up or a full-fledged corporation, we&#39;ve got the right people to get you started. 
-                </p>
+                In a world where finding the best engineer is difficult and matching people with businesses is far from possible. So, at GeeksPod we use special techniques to make this possible.
+In the ever-evolving galaxy of technology, GeeksPod stands at the forefront, revolutionizing the way businesses access top tier talent and harness the power of Artificial Intelligence. Our two-pronged approach, encompassing AI Augmentation and Staff Augmentation, empowers your business with unparalleled capabilities and expertise.                </p>
                 <div className="mt-6">
                   <a
                     href="#"

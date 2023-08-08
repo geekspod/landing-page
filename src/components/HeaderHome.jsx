@@ -24,10 +24,11 @@ export function HeaderHome(){
     
               </div>
               <br></br>
-                <h2 className="lg:text-5xl md:text-4xl text-3xl font-bold tracking-tight text-white">BUILD YOUR DREAM </h2>
-                <h2 className="lg:text-5xl md:text-4xl text-3xl font-bold tracking-tight text-white">ENGINEERING TEAM</h2>
+                <h2 className="lg:text-5xl md:text-4xl text-3xl font-bold tracking-tight text-white">Amplify your Business </h2>
+                <h2 className="lg:text-5xl md:text-4xl text-3xl font-bold tracking-tight text-white">Intelligence with AI</h2>
+                <h2 className="lg:text-5xl md:text-4xl text-3xl font-bold tracking-tight text-white">and Staff Augmentation</h2>
                 <p className="mt-4 text-xl text-white ">
-                We&apos;re bringing the global village of <br></br>developers and genuises<br></br> to your doorstep!
+                Lets build your dream team with <br></br>cutting-edge technologies
 
                 </p>
            
