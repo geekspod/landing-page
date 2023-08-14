@@ -3,6 +3,8 @@ import {HeaderHome} from "@/components/HeaderHome"
 import {LogosHome} from "@/components/LogosHome"
 import { AboutHome } from '@/components/AboutHome'
 import { AboutHome2 } from '@/components/AboutHome2'
+import { AboutHome3 } from '@/components/AboutHome3'
+import { AboutHome4 } from '@/components/AboutHome4'
 import { TeamHome } from '@/components/TeamHome'
 import { FooterHome } from '@/components/FooterHome'
 import { Footer } from '@/components/Footer'
@@ -26,6 +28,8 @@ export default function Home() {
 <HeaderHome></HeaderHome>
 <LogosHome></LogosHome>
 <AboutHome></AboutHome>
+<AboutHome3></AboutHome3>
+<AboutHome4></AboutHome4>
 <AboutHome2></AboutHome2>
 <TeamHome></TeamHome>
 <FooterHome></FooterHome>
